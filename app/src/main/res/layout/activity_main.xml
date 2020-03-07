@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quagnitia.databasedemo.MainActivity"
+    android:background="@color/colorLightBlue">
+
+   <EditText
+       android:id="@+id/etRoll"
+       android:textSize="15dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter Roll"
+       android:background="@color/colorGreen"
+       android:padding="10dp"
+       android:inputType="number"
+      />
+    <EditText
+        android:id="@+id/etName"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_below="@+id/etRoll"
+      android:background="@color/colorBlue"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/etCity"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City"
+        android:layout_below="@+id/etName"
+        android:padding="10dp"
+        android:background="@color/colorAccent"
+        />
+<Button
+    android:id="@+id/btnInsert"
+    android:textSize="15dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/etCity"
+    android:text="Insert"
+    android:layout_centerInParent="true"
+    android:layout_margin="10dp"
+    />
+    <Button
+        android:id="@+id/btnShow"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInsert"
+        android:text="Show"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

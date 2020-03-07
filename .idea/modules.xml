@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DatabaseDemo.iml" filepath="$PROJECT_DIR$/DatabaseDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DatabaseDemo-master.iml" filepath="$PROJECT_DIR$/DatabaseDemo-master.iml" group="DatabaseDemo-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="DatabaseDemo-master/app" />
+    </modules>
+  </component>
+</project>
